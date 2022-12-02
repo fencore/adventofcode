@@ -13,16 +13,14 @@ public class CalorieCount {
                     inLine = inputReader.nextLine();
                     if (!inLine.isEmpty()) {
                         currentCals += Integer.parseInt(inLine);
-                        System.out.printf("Current elf total is %d%n", currentCals);
                     }
                 } while (!inLine.isEmpty() && inputReader.hasNext());
 
                 if (currentCals > maxCals) {
                     maxCals = currentCals;
-                    System.out.printf("New Max Cals: %d%n", maxCals);
                 }
             }
-            System.out.printf("The large calories carried is: %d%n", maxCals);
+            System.out.printf("The largest calories carried is: %d%n", maxCals);
         } catch (IOException e) {
             System.out.println("IOException");
 			e.printStackTrace();

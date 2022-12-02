@@ -1,0 +1,60 @@
+===Notes===
+Opp
+A = Rock
+B = Paper
+C = Scissors
+
+You
+X = Rock
+Y = Paper
+Z = Scissors
+
+A < Y
+A = X
+A > Z
+
+B < Z
+B = Y
+B > X
+
+C < X
+C = Z
+C > Y
+
+heckin' lotta case statements
+
+===Algo===
+
+Declare char variables for oppMove and myMove to hold moves read from file
+Declare int for myScore to maintain score count, init to 0
+Declare constants
+	winScore = 6
+	drawScore = 3
+	loseScore = 0
+	rockScore = 1
+	paperScore = 2
+	scissorsScore = 3
+Open file input.txt
+
+Read first char into oppMove
+Read second char into myMove
+
+Loop while file has contents
+	Case select based on myMove
+		myMove is X (Rock)
+			add rockScore to myScore
+			if oppMove is A (Rock) then add drawScore to myScore
+			else if oppMove is B (Paper) then add loseScore to myScore
+			else if oppMove is C (Scissors) then add winScore to myScore
+		myMove is Y (Paper)
+			add paperScore to myScore
+			if oppMove is A (Rock) then add winScore to myScore
+			else if oppMove is B (Paper) then add drawScore to myScore
+			else if oppMove is C (Scissors) then add loseScore to myScore
+		myMove is Z (Scissors)
+			add scissorsScore to myScore
+			if oppMove is A (Rock) then add loseScore to myScore
+			else if oppMove is B (Paper) then add winScore to myScore
+			else if oppMove is C (Scissors) then add drawScore to myScore
+End Loop
+Print myScore to screen

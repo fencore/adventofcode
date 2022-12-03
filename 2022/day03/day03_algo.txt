@@ -2,7 +2,7 @@ Build a function to return the priority int value of the input char, must be cas
 
 Main:
 Declare string bagContents
-Declare int priotiySum
+Declare int prioritySum
 Open input.txt
 
 Start outer loop, continue while file has more contents

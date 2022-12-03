@@ -1,4 +1,4 @@
-Build a function to return the priority int value of the input char, must be case sensitive
+Build a function to return the priority int value of the input char, must be case sensitive - do this in a separate class file since it'll probably be needed in P2
 
 Main:
 Declare string bagContents

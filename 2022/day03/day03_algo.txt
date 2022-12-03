@@ -1,0 +1,18 @@
+Build a function to return the priority int value of the input char, must be case sensitive
+
+Main:
+Declare string bagContents
+Declare int priotiySum
+Open input.txt
+
+Start outer loop, continue while file has more contents
+	Read line into bagContents
+	Start middle FOR loop,  iterator i, continue until either iterator 		is bagContents length / 2 OR find a char match
+		Start inner FOR loop, iterator j, continue until either is 			bagContents length OR find a char match
+			Compare bagContents[i] and bagContents[j]
+			If match, prioritySum += LookupFunctionValue
+		End inner loop
+	End middle loop
+End outer loop
+
+Print prioritySum to screen

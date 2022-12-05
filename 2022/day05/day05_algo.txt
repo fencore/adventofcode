@@ -1,0 +1,24 @@
+Hand-reformatted initial state input. Andy can't tell me how to live my life.
+
+=====Reading input state into 2D array=====
+Open file
+Loop - for incrementer i = 0, while line read in is not empty, i++
+    Inner Loop to iterate through read string
+        push char to stack
+    End inner loop
+    Add now complete stack to list
+End Loop
+
+=====processing move instructions=====
+Outer Loop - while file has contents
+    read line into split string, array of 3 ints, position 1 is quantity, position 2 is source stack, position 3 is destination stack. (moveInstruction)
+    inner loop - for incrementer i = 0, while i < moveInstruction[0], i++
+        push to cargoList[moveInstruction[2]] char that is popped from cargoList[moveInstruction[1]]
+    End inner loop
+End outer loop
+
+loop - for incrementer i = 0, while i is less than the first dimension of the two dimensional array, i++
+    peek top crate of each stack, assign to string topCratesList
+end loop
+
+print topCratesList to screen

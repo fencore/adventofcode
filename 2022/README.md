@@ -1,6 +1,6 @@
 # Solutions
 
-This year was completed in Java. Each day is separated out, with generally a class to encapsulate each day's solution. Additional documentation notes can be found in the day`*_algo.txt file in each folder which is the pseudocode outline for each Part A solution.
+This year was completed in Java. Each day is separated out, with generally a class to encapsulate each day's solution. Additional documentation notes can be found in the day\*_algo.txt file in each folder which is the pseudocode outline for each Part A solution.
 
 # Manager "Solutions"
 

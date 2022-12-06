@@ -1,0 +1,23 @@
+=== Main ===
+Open file
+initialize counter p
+Read full string into a char array. BEEG array
+Loop - for i = 0, i + 3 < array length, i++
+    feed rolling 4-char snapshot into check function index range i to i+3
+    if check true (no duplicates)
+        print p to screen
+    if check false (has duplicates)
+        increment p
+End Loop
+
+=== Check function === Reads char array
+Outer Loop - for i = 0, i < array length - 1, i++
+    Inner Loop - for j = i+1, j < array length, j++
+        if array[i] == array[j]
+            return false
+    End Inner Loop
+End Outer Loop
+return true
+
+For Part B, change i+4 in lines 11 and 12 to i+14 (or size of range needed)
+    

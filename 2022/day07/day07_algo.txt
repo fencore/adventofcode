@@ -1,0 +1,38 @@
+It's java damnit EVERYTHING is an object
+command format = 
+    0. $
+    1. command string
+    2. argument string
+
+file formats =
+    file
+        0. integer size
+        1. string name
+    dir
+        0. keyword "dir"
+        1. string dirName
+
+===function Main
+Create ArrayList of directory objects
+Open file
+Read line into buffer string array split on spaces
+
+
+Loop while file has contents
+    
+Declare Class "directory"
+    - private string dirName
+    - private string parentDirName
+    - private ArrayList fileContents[]
+        - int fileSize
+    - private ArrayList subDirs[]
+        - yo mr. white we're recursin here
+    
+    Methods:
+        getDirSize - needs to step through subdirs, plus sum ints in file sizes
+        addDir - create new directory object and append to subDirs ArrayList
+        addFile - add to fileContents ArrayList
+        rmDir - remove specified dir from subDirs ArrayList - not necessary for this scope probably
+        getParentDir - name's on the tin
+        getDirName - ditto
+        getAllDirSizes - i mean while i'm here might as well make the class do it

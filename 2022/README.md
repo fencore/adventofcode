@@ -14,3 +14,5 @@ Credit to [Mia Winter](https://miawinter.de/) for the [Mastograph](https://masto
 - Day 4 - [Camp Cleanup](https://mastograph.miawinter.de/tech.lgbt/109456647075245010)
 - Day 5 - [Supply Stacks](https://mastograph.miawinter.de/tech.lgbt/109461773915244114)
 - Day 6 - [Tuning Trouble](https://mastograph.miawinter.de/tech.lgbt/109467550318346290)
+- Day 7 - [No Space Left On Device](https://mastograph.miawinter.de/tech.lgbt/109473231951675718)
+- Day 8 - [Treetop Tree House](https://mastograph.miawinter.de/tech.lgbt/109479064273347109)

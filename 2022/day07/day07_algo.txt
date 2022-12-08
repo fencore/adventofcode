@@ -20,12 +20,12 @@ Read line into buffer string array split on spaces
 
 Loop while file has contents
     
-Declare Class "directory"
+Declare Class "Directory"
     - private string dirName
     - private string parentDirName
     - private ArrayList fileContents[]
         - int fileSize
-    - private ArrayList subDirs[]
+    - private ArrayList<Directory> subDirs[]
         - yo mr. white we're recursin here
     
     Methods:

@@ -1,0 +1,14 @@
+Read file into 2D array
+Borders are visible
+    Border rules -
+        -All Array[0,X]
+        -All Array[array.length-1, X]
+        -All Array[X, 0]
+        -All Array[X, array.length-1]
+For non-border squares
+    -checkNorth
+    -checkSouth
+    -checkEast
+    -checkWest
+    For any trees taller than subject tree between subject tree and border
+Get count of 

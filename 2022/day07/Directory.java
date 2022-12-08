@@ -54,7 +54,7 @@ public class Directory {
                 break;
             }
         }
-        if (foundFlag = false) {
+        if (!foundFlag) {
             this.addDir(s);
         }
         return retDir;

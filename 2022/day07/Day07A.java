@@ -58,7 +58,7 @@ public class Day07A {
 
         Stack<Integer> sortList = new Stack<Integer>();
         for (Integer i : sizes) {
-            if (i >= 30000000 - (70000000 - Collections.max(sizes))) {
+            if (i >= (30000000 - (70000000 - Collections.max(sizes)))) {
                 sortList.push(i);
             }
         }

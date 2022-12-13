@@ -15,5 +15,7 @@ public class Monkey {
         falseDest = falseD;
     }
 
-    private parseOperator()
+    private parseOperator() {
+        
+    }
 }

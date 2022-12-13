@@ -1,0 +1,29 @@
+Make a monkey class
+    -arr variable to hold current items
+    -operator variable to determine + or *
+    -factor to pair with operator
+    -target if test true
+    -target if test false
+    -test? how can i include the test in the class?
+
+    Methods:
+    worryCheck - modify worry value based on algorithm provided, void
+    throwItem - pops item value, integer, will need to call testCriteria, return -1 to end
+    catchItem - receives a thrown item, void
+    testCriteria - evaluates criteria prior to throw, boolean
+    constructor - needs item list array, the operator, operator factor, target true, and target false
+
+Make a Monkey-facilitator class. Goof Troop.
+    -Array of Monkeys
+    -thrown item variable to act as intermediary?
+
+    Methods:
+    - Call monkey array action atates in turn until -1 received
+    -Intermediary catchItem
+    - Intemediary throwItem
+    addMonkey method to call Monkey constructor
+
+
+Main
+
+Declare the monkey classes to fill the GoofTroop array
